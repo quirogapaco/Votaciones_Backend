@@ -14,5 +14,6 @@ import { CommonModule } from 'src/common/common.module';
   ],
   controllers: [ParroquiaController],
   providers: [ParroquiaService],
+  exports: [ParroquiaService],
 })
 export class ParroquiaModule {}

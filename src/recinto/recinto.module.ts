@@ -12,5 +12,6 @@ import { CommonModule } from '../common/common.module';
   imports: [TypeOrmModule.forFeature([Recinto, Parroquia, Zona]), CommonModule],
   controllers: [RecintoController],
   providers: [RecintoService],
+  exports: [RecintoService],
 })
 export class RecintoModule {}

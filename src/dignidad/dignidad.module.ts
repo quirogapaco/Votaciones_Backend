@@ -14,5 +14,6 @@ import { CommonModule } from 'src/common/common.module';
   ],
   controllers: [DignidadController],
   providers: [DignidadService],
+  exports: [DignidadService],
 })
 export class DignidadModule {}

@@ -16,6 +16,7 @@ import { PartidoModule } from './partido/partido.module';
 import { SimulacionModule } from './simulacion/simulacion.module';
 import { CommonModule } from './common/common.module';
 import { UserModule } from './user/user.module';
+import { SeedModule } from './seed/seed.module';
 
 @Module({
   imports: [
@@ -49,6 +50,7 @@ import { UserModule } from './user/user.module';
     SimulacionModule,
     CommonModule,
     UserModule,
+    SeedModule,
   ],
   controllers: [],
   providers: [],

@@ -9,5 +9,6 @@ import { Recinto } from 'src/recinto/entities/recinto.entity';
   imports: [TypeOrmModule.forFeature([Junta, Recinto])],
   controllers: [JuntaController],
   providers: [JuntaService],
+  exports: [JuntaService],
 })
 export class JuntaModule {}

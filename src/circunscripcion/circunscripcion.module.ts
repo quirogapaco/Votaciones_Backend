@@ -9,5 +9,6 @@ import { CommonModule } from 'src/common/common.module';
   imports: [TypeOrmModule.forFeature([Circunscripcion]), CommonModule],
   controllers: [CircunscripcionController],
   providers: [CircunscripcionService],
+  exports: [CircunscripcionService],
 })
 export class CircunscripcionModule {}

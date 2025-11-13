@@ -9,5 +9,6 @@ import { CommonModule } from 'src/common/common.module';
   imports: [TypeOrmModule.forFeature([Provincia]), CommonModule],
   controllers: [ProvinciaController],
   providers: [ProvinciaService],
+  exports: [ProvinciaService],
 })
 export class ProvinciaModule {}

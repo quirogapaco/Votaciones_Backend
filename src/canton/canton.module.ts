@@ -10,5 +10,6 @@ import { CommonModule } from 'src/common/common.module';
   imports: [TypeOrmModule.forFeature([Canton, Provincia]), CommonModule],
   controllers: [CantonController],
   providers: [CantonService],
+  exports: [CantonService],
 })
 export class CantonModule {}

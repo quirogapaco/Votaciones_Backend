@@ -16,5 +16,6 @@ import { Voto } from 'src/voto/entities/voto.entity';
   CommonModule],
   controllers: [CandidatoController],
   providers: [CandidatoService],
+  exports: [CandidatoService],
 })
 export class CandidatoModule {}

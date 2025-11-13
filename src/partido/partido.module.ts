@@ -9,5 +9,6 @@ import { CommonModule } from 'src/common/common.module';
   imports: [TypeOrmModule.forFeature([Partido]), CommonModule],
   controllers: [PartidoController],
   providers: [PartidoService],
+  exports: [PartidoService],
 })
 export class PartidoModule {}
